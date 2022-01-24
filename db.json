@@ -4,17 +4,13 @@
       "id": "malgfb4p2",
       "name": "The Godfather",
       "year": 1972,
-      "actor": "Marlon Brando",
-      "rate": 5,
-      "numberOfVotes": 1
+      "actor": "Marlon Brando"
     },
     {
       "id": "p7a3r5hwl",
       "name": "Fight Club",
       "year": "1999",
-      "actor": "Brad Pitt",
-      "rate": 13,
-      "numberOfVotes": 3
+      "actor": "Brad Pitt"
     },
     {
       "id": "j8qnq74yf",
@@ -33,56 +29,6 @@
       "name": "Apocalypse Now",
       "year": "1979",
       "actor": "Martin Sheen"
-    },
-    {
-      "id": "tpjs235w9jm",
-      "name": "Test",
-      "year": 1922,
-      "actor": "Test"
-    },
-    {
-      "id": "tpz4zx10m59",
-      "name": "Test",
-      "year": 1922,
-      "actor": "Test"
-    },
-    {
-      "id": "ruytks8xcm",
-      "name": "Test",
-      "year": 1922,
-      "actor": "Test"
-    },
-    {
-      "id": "ffk0w1bu1og",
-      "name": "Test",
-      "year": 1922,
-      "actor": "Test"
-    },
-    {
-      "id": "q9x0bwqet3g",
-      "name": "Test",
-      "year": 1922,
-      "actor": "Test"
-    },
-    {
-      "id": "38xqfodqiop",
-      "name": "Test",
-      "year": 1922,
-      "actor": "Test",
-      "rate": 2,
-      "numberOfVotes": 1
-    },
-    {
-      "id": "x5g3goltx7b",
-      "name": "Test",
-      "year": 1922,
-      "actor": "Test"
-    },
-    {
-      "id": "0r04r5f72be",
-      "name": "asdf",
-      "year": 1888,
-      "actor": "Keanu Reeves"
     }
   ],
   "actors": [
