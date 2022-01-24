@@ -1,0 +1,11 @@
+.table {
+  width: 100%;
+
+  .table-row {
+    cursor: pointer;
+
+    &:hover {
+      background: whitesmoke;
+    }
+  }
+}

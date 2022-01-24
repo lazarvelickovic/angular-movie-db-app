@@ -1,0 +1,13 @@
+.h-container {
+  margin-top: 60px;
+
+  .btn-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+    .btn {
+      margin-right: 10px;
+    }
+  }
+}

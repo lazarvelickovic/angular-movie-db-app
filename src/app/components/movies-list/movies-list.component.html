@@ -1,0 +1,12 @@
+<mat-toolbar color="primary">Movies List</mat-toolbar>
+
+<div class="container h-container">
+   <filter-movies [movies]="movies"
+                  (filterMoviesEvent)="applyFilter($event)"></filter-movies>
+   <a mat-raised-button
+      color="primary"
+      routerLink="/add-movies">Add Movie</a>
+</div>
+
+<table-component [filteredMovies]="filteredMovies"
+                 (submitRatingEvent)="onRatingUpdate($event)"></table-component>

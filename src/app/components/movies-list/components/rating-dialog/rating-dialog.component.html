@@ -1,0 +1,16 @@
+<h2 mat-dialog-title>{{ movie.name }}</h2>
+
+<form [formGroup]="form"
+      (ngSubmit)="onSubmit(form)">
+        <formly-form [fields]="fields"
+                     [form]="form"></formly-form>
+        <div mat-dialog-actions>
+                <button mat-button
+                        (click)="onClose()">Close</button>
+                <button type="submit"
+                        mat-raised-button
+                        color="primary"
+                        [disabled]="!form.valid">Save</button>
+
+        </div>
+</form>

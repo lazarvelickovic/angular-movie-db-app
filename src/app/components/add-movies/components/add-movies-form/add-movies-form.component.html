@@ -1,0 +1,22 @@
+<div class="container h-container">
+    <form [formGroup]="form"
+          (ngSubmit)="onSubmit(form)">
+        <formly-form [fields]="fields"
+                     [options]="options"
+                     [form]="form"></formly-form>
+        <div class="btn-container">
+            <a mat-raised-button
+               color="primary"
+               routerLink="/movies-list">Go Back</a>
+            <div>
+                <button mat-button
+                        class="btn"
+                        (click)="options?.resetModel()">Reset</button>
+                <button type="submit"
+                        mat-raised-button
+                        color="primary"
+                        [disabled]="!form.valid">Save</button>
+            </div>
+        </div>
+    </form>
+</div>
